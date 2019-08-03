@@ -56,8 +56,7 @@ RunOmbd = function () {
  
  axios.get("http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=bdbc2c22")
 .then(function (movieObject) {
-    // if (movieObject.data.Title == "undefined") {
-    //     console.log("Error...Choose another movie title")
+
     //  }
     //  else {
             // console.log(movieObject);
@@ -80,7 +79,7 @@ RunNike = function(){
           return console.log("Just do it");
         }
       
-        console.log(data);
+     console.log(data);
       
       });
     }
